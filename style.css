@@ -1,36 +1,116 @@
-<style>
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
 
-        input{
-            width: 50%;
-            height: 30px;
-            margin: 0 5px;
-            background-color: transparent;
-        }
+.header_item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 4px 0px 32px;
+}
 
-        a:link{
-            text-decoration: none;
-        }
-        a:visited{
-            color:black;
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: underline;
-        }
-        /* Clases */
-        .centrar{
-            width: 100%;
-            max-width: 700px;
-            margin: auto;
-            margin-top: 8rem;
-            align-items: center;
-        }
-        .barra_busqueda{
-            width: 100%;
-            margin-top: 15px;
-            padding: 5px 10px;
-            border: 0.5px;
-            border-color: lightslategrey;
-            border-radius: 25px;
-            border-style: solid;
-        }
+.header_item a{
+    text-decoration: none;
+    color:black
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.doodle {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.doodle img {
+    border-radius: 10px;
+}
+
+.menu-item {
+    padding: 0px 0px 0px 15px;
+    font-size: 14px;
+}
+
+.search-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-search {
+    height: 34px;
+    width: 487px;
+    border:1px solid transparent;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+.input-search:hover {
+    cursor: text;
+    background-color: #9aa0a6;
+    border: 1px solid #2e2e2e;
+}
+
+.botones-busqueda {
+    display: flex;
+    flex-direction: row;
+}
+
+.botones-busqueda button {
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4;
+    border:1px solid transparent;
+    background-color: #f8f9fa;
+}
+
+.botones-busqueda button:hover {
+    cursor: pointer;
+    border: 1px solid #9aa0a6;
+    border-radius: 4;
+    background-color:#f1f4f7 ;
+}
+
+footer{
+    margin-top: 150px;
+}
+
+
+footer a{
+    text-decoration: none;
+    color:black;
+}
+
+
+footer .footer-list a:hover{
+    text-decoration: underline;
+}
+
+.footer-pais {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.footer-list{
+    padding: 0 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.footer-link {
+    padding-left: 20px;
+}
+
